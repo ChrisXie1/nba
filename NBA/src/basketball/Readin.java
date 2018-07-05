@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class Readin {
 	
-	public String[] readFile(String filename){
+	public ArrayList<String> readFile(String filename){
 		
 		ArrayList<String> cleaned = new ArrayList<String>();
 		
